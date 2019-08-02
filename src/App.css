@@ -1,33 +1,65 @@
+body, div {
+    margin: 0;
+    padding: 0; 
+}
 .App {
-  text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(180, 180, 57);
+    
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.WrapperCmp {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(92, 180, 151);
+    display: flex;
+    flex-direction: row-reverse;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.colletionWrapper {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(191, 154, 226);
+    display: flex;
+    flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.DropsWrapper {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(111, 156, 224);
+    display: flex;
+    flex-direction: column-reverse;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hddCollection {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(206, 183, 83)
+}
+.ssdCollection {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(177, 221, 56)
+}
+.hddDrops {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(206, 183, 83)
+}
+.ssdDrops {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(177, 221, 56)
+}
+.diskCmp {
+    height: 80px;
+    width: 70px;
+    background-color: yellow;
+    margin: 2px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 1px #8a8a8a;
+}
+.hdds {
+    display: flex;
+    flex-flow: wrap;
 }
